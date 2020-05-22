@@ -1021,6 +1021,11 @@
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
   }
+
+  .delay_2s {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
   
   @-webkit-keyframes fadeInDown {
     from {
@@ -1177,11 +1182,13 @@
     overflow: hidden;
     pointer-events: auto;
     position: relative;
-    -webkit-transition: -webkit-transform .25s ease-in-out;
-    -webkit-transition: transform .25s ease-in-out;
-    transition: transform .25s ease-in-out;
+    -webkit-transition: -webkit-transform .9s ease-in-out;
+    -webkit-transition: transform .9s ease-in-out;
+    transition: transform .9s ease-in-out;
     z-index: 1;
   }
+
+  
   
   .site-content {
     -webkit-box-flex: 1;
